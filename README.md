@@ -15,3 +15,5 @@ reduces the time of execution by means of pruning conditions, which discard node
 lead to a valid solution. This is in contrast to brute-force algorithms, which are generally too ineffective (mostly in
 terms of execution time) since they systematically enumerate ALL possible candidates for the solution and check whether
 each candidate satisfies the problem's statement.
+
+The code that is contained in this repository can be directly imported into Eclipse and executed as a regular Java application. The "inputFiles" folder contains some examples of Nonograms, which can be used as test cases for the Nonogram solver.
