@@ -1,10 +1,11 @@
 # Nonogram
 
 The Nonogram puzzle (also known as Hanjie, Picross, or Griddler) is categorized as a Constraint Satisfaction Problem (CSP).
-This type of problems are defined as a set of objects whose state must satisfy a number of constraints or limitations.
-CSPs are typically solved using a form of search, such as backtracking, constraint propagation, or local search.
+This type of problems are defined as a set of objects whose state must satisfy a number of constraints or limitations. CSPs
+are typically solved using a form of search, such as backtracking, constraint propagation, or local search. Another example
+of this kind of problems is Sudoku.
 
-This repository contains a Nonogram solver that is based on backtracking. The algorithm that I implemented incrementally
+This repository contains a Nonogram solver that is based on backtracking. The algorithm that I developed incrementally
 builds candidate solutions, and abandons each partial candidate ("backtracks") as soon as the algorithm determines that
 the candidate cannot possibly be completed to a valid solution. The (tree) search space that is generated is traversed
 in depth-first order.
